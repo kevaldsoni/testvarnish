@@ -1,0 +1,57 @@
+Welcome to the team again.
+
+My name is Kiril Minanov and I have been working a little on the imatrix project in the last month or so
+My skype is "kiril.minanov.gigavoice" and you already have my email.
+Let me know when you are online in case you have any questions
+
+This is the project git lab url
+https://gitlab.git.internetbrands.com/imatrix/imatrix_corp
+
+You can find all the git related info on gitlab as mentioned above by Alfredo
+
+GIT repo
+SSH: git@git.internetbrands.com:imatrix/imatrix_corp.git
+HTTPS: https://username@git.internetbrands.com/imatrix/imatrix_corp.git
+
+What I just did was I took the code and the DB from PRD because the PRD code and DB were different than the DEV version we have
+For this project we have a DEV and a STG environment as well. We are not using the STG environment at the moment
+
+We are using only the DEV environment for development
+This is the URL for the DEV environment
+http://dev-www.imatrix.com
+http://dev-www.imatrix.com/wp-admin
+The dev version should have the same credentials as the redesing PRD version below
+
+
+This is the redesign PRD version  as mentioned by Alfredo above
+http://new.imatrix.com
+http://new.imatrix.com/wp-admin
+u: health-dev
+p: !br4ndsp4$$
+
+We also use jenkins for the deployments to DEV and PRD
+Currently Jenkins deployments for this project are not tested, so please dont use them.
+Will try to make the DEV jenkins deployment work today
+
+This is the jenkins URL
+DEV deployment
+http://stg-officite-web1.internetbrands.com:8080/job/imatrixCorp/
+
+PRD deployment
+http://stg-officite-web1.internetbrands.com:8080/job/imatrixCorp/
+
+Alfredo will create accounts for you if not created already.
+
+Our working process is usually
+LOCAL -> DEV -> PROD
+We first make it work on our local environments and then we deploy to the
+DEV environment where QA makes sure all is good and if they approve then its deployed to
+PRD where QA makes sure again that all is good
+
+You can setup your local environment by getting the code from the git repo above
+You will also need to take the DB from the dev server
+I just copied it for you on this location
+Server: dev-imatrix-web1.internetbrands.com
+DB SQL export: /var/www/sites/imatrix-corp-prd/imatrix_corp_prd_17July2017.sql
+
+You will need SSH access for that
