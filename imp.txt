@@ -1,3 +1,5 @@
+
+a
 ksoni@KSONIW7-x64 MINGW64 /c/testvarnish
 $ git init
 Initialized empty Git repository in C:/testvarnish/.git/
